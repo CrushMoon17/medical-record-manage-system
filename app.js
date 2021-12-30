@@ -26,5 +26,5 @@ app.use(session({
 app.use(router)    //把路由容器挂载到app服务中
 app.use(routerVD)
 
-app.listen(3018, () => console.log(`App listening on port 3018!`))
+app.listen(10307, () => console.log(`App listening on port 10307!`))
 
