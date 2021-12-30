@@ -70,7 +70,7 @@ Vue-Router：是Vue.js官方的路由管理器
 
 ![image-20211230021242270](/home/osuser/.config/Typora/typora-user-images/image-20211230021242270.png)
 
-#### 病人信息
+#### 添加后病人信息
 
 ![image-20211230021331153](/home/osuser/.config/Typora/typora-user-images/image-20211230021331153.png)
 
