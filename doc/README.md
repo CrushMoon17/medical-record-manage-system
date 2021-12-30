@@ -115,13 +115,13 @@ Vue-Router：是Vue.js官方的路由管理器。
 
 由于我的vscode与github连接时出了点问题，几次尝试commit的文件在push之后一起上传到了github上。
 
-Test remote:测试上传项目
+Test remote:测试上传项目；
 
-forth commit：数据库增添数据
+forth commit：数据库增添数据；
 
-fifth commit：更改了一些页面信息
+fifth commit：更改了一些页面信息；
 
-modify readme：完善了readme.md文档
+modify readme：完善了readme.md文档。
 
 
 
