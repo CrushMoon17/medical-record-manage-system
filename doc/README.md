@@ -4,9 +4,11 @@
 
 #### （1）项目总体构成
 
-本项目为杭州市仁爱医院病历管理系统，采用NodeJS+MongoDB+Express等技术。
+本项目为杭州市仁爱医院病历管理系统，具有注册登陆，添加医生、患者信息、编辑删除信息以及查询信息等功能
 
-本系统使用Bootstrap、Vue前端框架，其中包含：Vue-resource以及Vue-Router
+本系统采用NodeJS+MongoDB+Express等技术，使用Bootstrap、Vue前端框架，其中包含：Vue-resource以及
+
+Vue-Router。
 
 Vue-resource:是一个通过XMLHttpRequrest或JSONP技术实现异步加载服务端数据的Vue插件
 
@@ -16,7 +18,16 @@ Vue-Router：是Vue.js官方的路由管理器
 
 #### （2）引入的包在项目中的作用相关说明
 
+1)express:使用express包搭建服务,具备中间件的使用、路由、模板引擎、静态文件服务、设置代理等主要能力
 
+2）mongoose：是Node.js操作MongoDB数据库需要依赖的Node.js第三方包，使用mongoose提供的connect方法即可连接数据库。mongoose包含三个概念：Schema，用来定义数据库的结构，schema不具备操作数据库的能力。Model，由schema编译出的构造器，用来定义集合模型，Model的实例即是文档。model具备数据库的增删改查。Entity，由model构造器创建的实体，即文档document。
+
+3）art-template： 是一个高速的JavaScript模板渲染引擎，它采用作用域预声明的技术来优化模板渲染速度，将html字符串渲染成需要的结果。
+
+4）body-parser：它用于解析客户端请求的body中的内容,内部使用JSON编码处理,url编码处理以及对于文件的上传处理。
+
+5）express-session：session 运行在服务器端，当客户端第一次访问服务器时，可以将客户的登录信息保存。
+当客户访问其他页面时，可以判断客户的登录状态，做出提示，相当于登录拦截。
 
 #### （3）项目目录结构和各个部分的说明。
 
