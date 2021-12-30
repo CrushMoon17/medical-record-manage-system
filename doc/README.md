@@ -4,17 +4,13 @@
 
 #### （1）项目总体构成
 
-本项目为杭州市仁爱医院病历管理系统，具有注册登陆，添加医生、患者信息、编辑删除信息以及查询信息等功能
+本项目为杭州市仁爱医院病历管理系统，具有注册登陆，添加医生、患者信息、编辑删除信息以及查询信息等功能。
 
-本系统采用NodeJS+MongoDB+Express等技术，使用Bootstrap、Vue前端框架，其中包含：Vue-resource以及
+本系统采用NodeJS+MongoDB+Express等技术，使用Bootstrap、Vue前端框架，其中包含：Vue-resource以及Vue-Router。
 
-Vue-Router。
+Vue-resource:是一个通过XMLHttpRequrest或JSONP技术实现异步加载服务端数据的Vue插件，提供了一般的 HTTP请求接口和RESTful架构请求接口，并且提供了全局方法和VUe组件实例方法。
 
-Vue-resource:是一个通过XMLHttpRequrest或JSONP技术实现异步加载服务端数据的Vue插件
-
-提供了一般的 HTTP请求接口和RESTful架构请求接口，并且提供了全局方法和VUe组件实例方法。
-
-Vue-Router：是Vue.js官方的路由管理器
+Vue-Router：是Vue.js官方的路由管理器。
 
 #### （2）引入的包在项目中的作用相关说明
 
@@ -31,19 +27,25 @@ Vue-Router：是Vue.js官方的路由管理器
 
 #### （3）项目目录结构和各个部分的说明。
 
-1、public目录： 项目公共目录，存放静态资源(img、js、css)和公共资源，404错误提示页面；
+1、doc目录：存放readme文档及项目截图
 
-2、routor目录： 路由控制器目录，存放路由文件，将所有的业务逻辑都都写在这里；
+2、module目录： mongodb的连接以及创建数据集
 
-3、views目录：  视图/模版目录，存放HTML模板文件；
+3、node_modules：存放所有的项目依赖库，配置package.json之后执行npm install后自动创建的文件夹；
 
-4、module目录： 自己写的一些模块；
+4、public目录： 项目公共目录，存放静态资源(css、img、js、js、lib)和公共资源，404错误提示页面；
 
-5、node_modules：存放所有的项目依赖库，配置package.json之后执行npm install后自动创建的文件夹；
+5、views目录：  视图/模版目录，存放HTML文件；
 
 6、app.js： 项目入口文件，程序初始运行文件；
 
-7、package.json ：项目配置信息，依赖模块的定义
+7、package-lock.json ：执行npm install后自动创建的文件；
+
+8、package.json ：项目配置信息，依赖模块的定义；
+
+9、routor.js： 路由控制器，路由文件，将所有的业务逻辑都都写在这里；
+
+10.routerVD.js：路由文件
 
 ### 2.使用说明书
 
@@ -111,22 +113,17 @@ Vue-Router：是Vue.js官方的路由管理器
 
 ### 3.开发日记
 
-#### 软件架构
+由于我的vscode与github连接时出了点问题，几次尝试commit的文件在push之后一起上传到了github上。
 
-软件架构说明
+Test remote:测试上传项目
+
+forth commit：数据库增添数据
+
+fifth commit：更改了一些页面信息
+
+modify readme：完善了readme.md文档
 
 
-#### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 
 
