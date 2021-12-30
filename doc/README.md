@@ -4,7 +4,7 @@
 
 #### （1）项目总体构成
 
-本项目为病历管理系统，采用NodeJS+MongoDB+Express等技术。
+本项目为杭州市仁爱医院病历管理系统，采用NodeJS+MongoDB+Express等技术。
 
 本系统使用Bootstrap、Vue前端框架，其中包含：Vue-resource以及Vue-Router
 
